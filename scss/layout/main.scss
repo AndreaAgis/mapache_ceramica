@@ -1,0 +1,78 @@
+main{
+    background-color: $background-color;
+    #dividerBar{
+    display: flex;
+    justify-content: center;
+    background-color: $background-color;
+        .bar-content{
+            text-decoration: none;
+            margin: 40px 10px;
+            background-color: $blue-color;
+            height: 60px;
+            width: 800px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+                h1{
+                    font-size: 1rem;
+                    font-weight: 600;
+                    color: white;
+                    padding-top: 20px;
+                }
+        }
+    }
+
+    #products{
+        div .col-4{
+            padding: 0;
+        }
+        .about-products{
+            width: 100%;
+            height: 50vh;
+            background-color: $blue-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                padding-top: 10px;
+                color: white;
+            }
+            .product-image{
+                height: 200px;
+                width: 100px;
+                overflow: hidden;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+
+        .about-wip{
+            margin-top: 20px;
+            width: 100%;
+            height: 500px;
+            background-color: $background-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+                .card-body{
+                    background-color: $button-color;
+                }
+        }
+
+        .about-commissions{
+            margin-top: 20px;
+            width: 100%;
+            height: 700px;
+            background-color: $background-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+

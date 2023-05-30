@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Kite+One&display=swap");
+* {
+  font-family: "Kite One", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffa372;
+}
+
+.box {
+  background-color: #e6fee6;
+  width: 100%;
+  height: 400px;
+}
+
+#hero {
+  background-color: #f3d7d4;
+  height: 270px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .stars {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+#hero .logo-center {
+  width: 140px;
+  height: 140px;
+  display: flex;
+}
+#hero .logo-right, #hero .logo-left {
+  width: 90px;
+  height: 180px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 20px;
+}
+#hero .logo-left {
+  object-position: 70%;
+}
+@media (min-width: 860px) {
+  #hero .stars {
+    display: block;
+  }
+}
+
+#nav {
+  background-color: #f3d7d4;
+  width: 100%;
+  height: 300px;
+  grid-area: nav;
+  display: flex;
+  justify-content: center;
+}
+#nav .nav-text {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#nav .nav-botton {
+  background-color: #e6fee6;
+  border-radius: 20px;
+  width: 180px;
+  height: 50px;
+  overflow: hidden;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: #f3d7d4;
+}
+main #dividerBar {
+  display: flex;
+  justify-content: center;
+  background-color: #f3d7d4;
+}
+main #dividerBar .bar-content {
+  text-decoration: none;
+  margin: 40px 10px;
+  background-color: #77ebea;
+  height: 60px;
+  width: 800px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+main #dividerBar .bar-content h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  padding-top: 20px;
+}
+main #products div .col-4 {
+  padding: 0;
+}
+main #products .about-products {
+  width: 100%;
+  height: 50vh;
+  background-color: #77ebea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #products .about-products p {
+  padding-top: 10px;
+  color: white;
+}
+main #products .about-products .product-image {
+  height: 200px;
+  width: 100px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 10px;
+}
+main #products .about-wip {
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+  background-color: #f3d7d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main #products .about-wip .card-body {
+  background-color: #e6fee6;
+}
+main #products .about-commissions {
+  margin-top: 20px;
+  width: 100%;
+  height: 700px;
+  background-color: #f3d7d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*# sourceMappingURL=app.css.map */

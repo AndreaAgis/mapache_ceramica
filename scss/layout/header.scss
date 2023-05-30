@@ -1,0 +1,39 @@
+#hero{
+    background-color: $background-color;
+    height: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+        .stars{
+            margin: 0;
+            padding: 0;
+            display: none;
+        }
+
+        .logo-center{
+            width: 140px;
+            height: 140px;
+            display: flex;
+        }
+
+        .logo-right{
+            width: 90px;
+            height: 180px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        .logo-left{
+            @extend .logo-right;
+            object-position: 70%;
+        }
+
+        @media (min-width: 860px){
+            .stars{
+                display: block;
+            }
+        }
+}
