@@ -1,0 +1,22 @@
+#tracking{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.tracking-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 400px;
+    width: 600px;
+    background-color: $yellow-color;
+    border-radius: 40px;
+}
+
+@media (max-width: 378px) {
+    #tracking{
+        padding-top: 40px;
+    }
+}

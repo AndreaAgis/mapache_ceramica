@@ -16,7 +16,7 @@
                     <img class="star-b" src="./images/star-b.png" alt="star2">
                 </div>
                 <img class="logo-left" src="./images/left.png" alt="left-reel">
-                <img class="logo-center" src="./images/logo.gif" alt="logo">
+                <img class="logo-center" src="./images/logo.png" alt="logo">
                 <img class="logo-right" src="./images/right.png" alt="right-reel">
                 <div class="stars">
                     <img class="star-c" src="./images/star-c.png" alt="star3">
@@ -24,87 +24,73 @@
                 </div>
             </section>
             <section id="nav">
-                <ul class="nav-text">
-                    <a class="nav-botton" href="./pages/available.html"><li>Creaciones</li></a>
-                    <a class="nav-botton" href="./pages/commissions.html"><li class="nav-botton">Pedidos</li></a>
-                    <a class="nav-botton" href="./pages/tracking.html"><li class="nav-botton">Envios</li></a>
-                    <a class="nav-botton" href="./pages/contact.html"><li class="nav-botton">Contacto</li></a>
+                <ul class="nav-container">
+                    <li class="nav-botton"><a href="./pages/available.html">Creaciones</a></li>
+                    <li class="nav-botton"><a href="./pages/commissions.html">Pedidos</a></li>
+                    <li class="nav-botton"><a href="./pages/tracking.html">Envios</a></li>
+                    <li class="nav-botton"><a href="./pages/contact.html">Contacto</a></li>
                 </ul>
             </section>
         </header>
         <main>
             <section id="dividerBar">
                 <div class="bar-content">
-                    <h1>Mapache Ceramica - Disponibles</h1>
+                    <h1>Disponibles</h1>
                 </div>
             </section>
             <section id="products">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="about-products">
-                                <img class="product-image" src="./images/mugs.png" alt="">
-                                <p>Tazas</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="about-products">
-                                <img class="product-image" src="./images/decorations.png" alt="">
-                                <p>Decoraciones</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="about-products">
-                                <img class="product-image" src="./images/plates.png" alt="">
-                                <p>Platos</p>
-                            </div>
-                        </div>
-                    </div>       
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="about-wip">
-                                <div class="card bg-transparent mb-3" style="max-width: 18rem;">
-                                    <img src="./images/manos.png" alt="manos">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Hechos con manos magicas</h5>
-                                      <p class="card-text">Luego de una extensa formación profesional, puedo decirles hoy con orgullo: !Bienvenidos a mi tienda oficial!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>   
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="about-commissions">
-                                <div class="card mb-3 bg-transparent" style="max-width: 740px;">
-                                    <div class="row g-0">
-                                      <div class="col-md-4">
-                                        <img src="./images/racoon.gif" class="img-fluid" alt="racoon">
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body">
-                                          <h5 class="card-title">Pedidos personalizados</h5>
-                                          <p class="card-text">Pedime lo que quieras, la forma y el color de tu preferencia, tambien podes dejarme a mi merced y mi imaginación.</p>
-                                          <p class="card-text"><small class="text-body-secondary">Con tiempo porfavorcito</small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
+                    <div class="product-category img-fluid">
+                        <a href="./pages/available.html"><img src="./images/mugs.webp" alt="photo of mugs">
+                        <h2>Tazas</h2></a>
+                    </div>
+                    <div class="product-category img-fluid">
+                        <a href="./pages/available.html"><img src="./images/plates.webp" alt="photo of plates">
+                        <h2>Platos</h2></a>
+                    </div>
+                    <div class="product-category img-fluid">
+                        <a href="./pages/available.html"><img src="./images/decorations.webp" alt="photo of deco">
+                        <h2>Deco</h2></a>
+                    </div>
+            </section>
+            <section id="wip">
+                <div class="wip-container">
+                    <div class="wip-images">
+                        <img class="hand-stars" src="./images/hands-star.webp" alt="manos y estrellas">
+                        <img src="./images/hands.webp" alt="manos">
+                    </div>
+                    <div class="wip-bubble">
+                        <h5>Hechos con <br>manos magicas</h5>
                     </div>
                 </div>
+                <div class="wip-text img-fluid">
+                    <p class="card-text">Luego de una extensa formación profesional, puedo decirles hoy con orgullo: <br> !Bienvenidos a mi tienda oficial!</p>
+                </div>
+            </section>
+            <section id="commissions">
+                <div class="commissions-container">
+                    <img class="raccoon-image" src="./images/racoon-chill.webp" alt="racoon">
+                    <div class="commissions-bubble">
+                         <h5>Pedidos personalizados</h5>
+                    </div>
+                </div>
+                <p class="commissions-text">Pedime lo que quieras, la forma y el color de tu preferencia, tambien podes dejarlo a mi imaginación.</p>       
+                <p class="goback-button"><a href="#hero">Volver al Inicio.</a></p>        
             </section>
         </main>
-        <footer>
-            <div>
-                <p>Mis redes</p>
-                <p>Consultas y dudas</p>
-                <!-- Credits: Images by:
-                    https://www.freepik.com/free-vector/hand-drawn-sparkling-star-collection
-                    https://www.vecteezy.com/free-vector/hand Hand Vectors by Vecteezy
-                    https://www.freepik.com/free-vector/raccoon-procyon-lotor-illustrated-by-charles-dessalines-d-orbigny-->
-            </div>            
+        <footer id="footer">
+                <div class="footer-organizer">   
+                    <h5>Consultas y dudas de 9 a 18</h5>
+                    <img src="./images/whatsapp-icon.png" alt="logo-whatsapp">
+                </div>
+                <div class="footer-organizer">
+                    <h5>Seguime en instagram</h5>
+                    <img src="./images/instagram-icon.png" alt="logo-instagram">
+                </div>
+                <div class="last-words">
+                    <p>Mapache Ceramica - Todos los derechos reservados</p>
+                    <p>Pagina creada por - Andrea Agis</p>
+                </div>
+                    <!-- Credits: Images by: https://www.freepik.com/free-vector/hand-drawn-sparkling-star-collection  https://www.vecteezy.com/free-vector/hand Hand Vectors by Vecteezy  https://www.freepik.com/free-vector/raccoon-procyon-lotor-illustrated-by-charles-dessalines-d-orbigny-->            
         </footer>
         <script src="./js/bootstrap.min.js"></script>        
     </body>

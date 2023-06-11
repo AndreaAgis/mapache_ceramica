@@ -1,0 +1,26 @@
+#commissionsBody{
+    margin: 0;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    .commissions-submit{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        height: 400px;
+        width: 600px;
+        border-radius: 40px;
+        background-color: $yellow-color;
+        textarea{
+            height: 160px;
+        }
+    }
+}
+@media (max-width: 378px) {
+    #commissionsBody{
+        padding-top: 40px;
+    }
+}
+
